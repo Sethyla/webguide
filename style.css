@@ -1,198 +1,79 @@
-.Heading {
-    background-color: #a7c957;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-}
-
 body {
     border-radius: 32px;
     margin: 0;
-    padding: 10px 300px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     color: rgb(68, 255, 31);
+    background-color: rgb(36, 40, 42);
 }
 
 .Inner {
     background: #90a955;
     border-radius: 30px;
-    margin: 16px;
+    margin: 16px auto;
     padding: 10px 40px;
     max-width: 1500px;
-    border-width: 40px;
 }
+
+.Heading {
+    background-color: #a7c957;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px auto 20px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
 .Intro {
     background-color: #4f772d;
     border-radius: 10px;
     max-width: 800px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     padding: 15px;
-    border: 5px solid rgb(61, 61, 61);
-    color:#ecf39e;
-}
-.HeaderParagraph {
-    display: flex;
-}
-.Stycke1 {
-    background-color: #4f772d;
-    border-radius: 10px;
-    max-width: 500px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: 1;
-    padding: 15px;
-    margin-top: 20px;
-    display: flex;
-    margin-right: 20px;
     border: 5px solid rgb(61, 61, 61);
     color: #ecf39e;
+    text-align: center;
 }
-.kodBlock1 {
-    background-color: rgb(41, 41, 41);
-    font-family: "Courier New", monospace;
-    border-radius: 10px;
-    max-width: 500px;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1px;
-    padding-right:15px;
-    margin-top: 20px;
-    display: flex;
-    border: 5px solid rgb(61, 61, 61);
-}
-.Introduktion {
-    display: flex;
-}
-.Stycke2 {
+
+.Stycke1, .Stycke2, .Stycke3, .Stycke4, .Stycke5 {
     background-color: #4f772d;
     border-radius: 10px;
     max-width: 500px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 300px;
     padding: 15px;
     margin-top: 20px;
-    display: flex;
-    margin-right: 20px;
     border: 5px solid rgb(61, 61, 61);
-    color:#ecf39e;
+    color: #f0f8cc;
+    flex: 1;
+    text-align: center;
 }
-.kodBlock2 {
+
+.kodBlock1, .kodBlock2, .kodBlock3, .kodBlock4, .kodBlock5 {
     background-color: rgb(41, 41, 41);
     font-family: "Courier New", monospace;
     border-radius: 10px;
-    max-width: 500px;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1px;
+    padding: 10px 15px;
     margin-top: 20px;
-    display: flex;
     border: 5px solid rgb(61, 61, 61);
-    padding-right:15px;
-}
-.BodyHeadParagraph {
-    display: flex;
-}
-.Stycke3 {
-    background-color: #4f772d;
-    border-radius: 10px;
-    max-width: 500px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: 1;
-    padding: 15px;
-    margin-top: 20px;
-    display: flex;
-    margin-right: 20px;
-    border: 5px solid rgb(61, 61, 61);
-    color:#ecf39e;
-}
-.kodBlock3 {
-    background-color: rgb(41, 41, 41);
-    font-family: "Courier New", monospace;
-    border-radius: 10px;
-    max-width: 500px;
-    text-align: left;
-    margin-left: auto;
-    padding: 1px;
-    margin-top: 20px;
-    display: flex;
-    border: 5px solid rgb(61, 61, 61);
+    flex: 1;
+    min-width: 300px;
+    max-width: 100%;
     overflow-x: auto;
-    overflow-y: auto;
-    padding-right:40px;
 }
-.CSSParagraph {
+
+.Introduktion, .BodyHeadParagraph, .CSSParagraph, .ImageParagraph, .HeaderParagraph {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
-.Stycke4 {
-    background-color: #4f772d;
-    border-radius: 10px;
-    max-width: 500px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: 1;
-    padding: 15px;
-    margin-top: 20px;
-    display: flex;
-    margin-right: 20px;
-    border: 5px solid rgb(61, 61, 61);
-    color:#ecf39e;
-}
-.kodBlock4 {
-    background-color: rgb(41, 41, 41);
-    font-family: "Courier New", monospace;
-    border-radius: 10px;
-    max-width: 500px;
-    text-align: left;
-    margin-left: auto;
-    padding: 1px;
-    margin-top: 20px;
-    display: flex;
-    border: 5px solid rgb(61, 61, 61);
-    overflow-x: auto;
-    overflow-y: auto;
-    padding-right:1px;
-}
-.ImageParagraph {
-    display: flex;
-}
-.Stycke5 {
-    background-color: #4f772d;
-    border-radius: 10px;
-    max-width: 500px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: 1;
-    padding: 15px;
-    margin-top: 20px;
-    display: flex;
-    margin-right: 20px;
-    border: 5px solid rgb(61, 61, 61);
-    color:#ecf39e;
-}
-.kodBlock5 {
-    background-color: rgb(41, 41, 41);
-    font-family: "Courier New", monospace;
-    border-radius: 10px;
-    max-width: 500px;
-    text-align: left;
-    margin-left: auto;
-    padding: 1px;
-    margin-top: 20px;
-    display: flex;
-    border: 5px solid rgb(61, 61, 61);
-    padding-right:1px;
-}
+
 .lang-button {
     position: fixed;
     top: 20px;
@@ -204,17 +85,46 @@ body {
     border-radius: 20px;
     font-weight: bold;
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-    transition: 0.2s;
 }
-.lang-button:hover {
-    background-color: #90a955;
+.Github {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4f772d;
+    color: #f5f5f5;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 code {
-    display: block;
-    background-color: #1e1e1e;
     color: #00f5ff;
     padding: 10px;
     border-radius: 8px;
     overflow-x: auto;
     font-family: "Courier New", monospace;
+}
+
+.HeaderExamples {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+    .Introduktion, .BodyHeadParagraph, .CSSParagraph, .ImageParagraph, .HeaderParagraph {
+        flex-direction: column;
+    }
+    body {
+        padding: 10px 2%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Inner {
+        padding: 10px 15px;
+    }
 }
