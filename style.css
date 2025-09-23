@@ -67,6 +67,7 @@ body {
     margin-top: 20px;
     display: flex;
     border: 5px solid rgb(61, 61, 61);
+    color:#00f5ff;
 }
 .Introduktion {
     display: flex;
@@ -98,7 +99,7 @@ body {
     display: flex;
     border: 5px solid rgb(61, 61, 61);
     padding-right:15px;
-
+    color:#00f5ff;
 }
 .BodyHeadParagraph {
     display: flex;
@@ -131,6 +132,7 @@ body {
     overflow-x: auto;
     overflow-y: auto;
     padding-right:40px;
+    color:#00f5ff;
 }
 .CSSParagraph {
     display: flex;
@@ -163,6 +165,7 @@ body {
     overflow-x: auto;
     overflow-y: auto;
     padding-right:1px;
+    color:#00f5ff;
 }
 .ImageParagraph {
     display: flex;
@@ -195,4 +198,5 @@ body {
     overflow-x: auto;
     overflow-y: auto;
     padding-right:1px;
+    color:#00f5ff;
 }
