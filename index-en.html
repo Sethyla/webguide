@@ -19,8 +19,9 @@
 
             <div class="Intro">
                 <p>
-                    Keep in mind that it always has to be "&lt&gt" for it to count as a "function" in HTML. 
-                    When closing a line, like in C# where we use ";" in programming, it's similar to the opening block but with a "/" before the word. An example is shown below.
+                    Keep in mind that it always has to be "&lt&gt" for it to count as a "tag" in HTML. <br><br>
+                    When closing a line, like in C# where we use ";" in programming, it's similar to the opening block but with a "/" before the word. An example is shown below.<br><br>
+                    A tag is a function. Just like in C# you have int, double, string, etc., in HTML you have tags like p, h1, h2, h3, img, and more.
                 </p>
             </div>
 
@@ -30,11 +31,11 @@
                         It is important to always include DOCTYPE at the top of your HTML file. 
                         This tells the file that the language being used is HTML.
                         <br><br>
-                        Another important thing is that after writing DOCTYPE, you open with &lthtml&gt. 
-                        This tells the browser that all code inside &lt;html&gt; is written in HTML.
+                        Another important thing is that after writing DOCTYPE, you open with &lt;html&gt;. 
+                        This tells the program that all code inside &lt;html&gt; is written in HTML.
                         <br><br>
-                        You can also add lang="sv" (or "en") inside &lt;html&gt;, which tells the browser what language the website is in. 
-                        "sv" stands for Swedish, "en" for English. There are abbreviations for all languages, but these are the most important ones.
+                        You can also add lang="sv" or lang="en" inside &lt;html&gt;, which tells the browser what language the website is in. 
+                        "sv" stands for Swedish, "en" stands for English. There are abbreviations for all languages, but these are the most important.
                     </p>
                 </div>
                 <div class="kodBlock1">
@@ -52,7 +53,7 @@
                 <div class="Stycke2">
                     <p>
                         There are 4 different "text" types: H1, H2, H3, and p. H1-H3 are headers whose sizes cannot be changed.
-                        The "p" tag stands for Paragraph, used for writing regular text, like this box you are reading now. 
+                        The "p" tag stands for Paragraph, used to write blocks of text, like this box you are reading now. 
                         The difference between H1-H3 is the size of the header. A header can also be called a title or subheading.
                     </p>
                     <h1>H1</h1><br>
@@ -77,7 +78,7 @@
             <div class="BodyHeadParagraph">
                 <div class="Stycke3">
                     <p>
-                        There are 3 types of elements that come after &lt;html&gt;: Body, Head, and Style.
+                        There are 3 types of elements that come after &lt;html&gt;: Body, Head, and Style. 
                         The difference is that Body is what is visible, Head is what happens in the background, 
                         still important but not seen the same way as Body. For example, &lt;title&gt; sets the tab title when the website is open. 
                         Style is a version of CSS which I will explain later. 
@@ -105,16 +106,16 @@ Hello <br>
             <div class="CSSParagraph">
                 <div class="Stycke4">
                     <p>
-                        As I mentioned before, there are 3 types of CSS: inline, internal, external. 
+                        As mentioned before, there are 3 types of CSS: inline, internal, and external. 
                         Inline is applied directly in the element, internal is written inside &lt;style&gt; tags, 
-                        and external comes from a separate file, such as style.css.
+                        and external comes from a separate file, like style.css.
                         <br><br>
                         The example next to this shows how to make H1 text black. Remember, colors must be written in English if you want to use the built-in names.
                         <br><br>
                         Another example sets the body background color to white.
                         <br><br>
                         External CSS works like internal CSS, but you have to load it from a separate file, for example style.css.
-                        The example also shows how to import CSS from another file.
+                        The example also shows how to import CSS from another file. This may be considered advanced at the time of writing.
                     </p>
                     <br><br>
                 </div>
@@ -165,6 +166,13 @@ Hello <br>
                     </code>
                 </div>
             </div>
+                <footer>
+                    <p>
+                    Note: I actively update swedish version, English is translated by ai <br>
+                    may be some wrong translation as well as I dont actively translate <br>on every commit
+                    can take some time before there is a english equivalent of the swedish site.
+                    </p>
+                </footer>
         </body>
     </div>
 </html>
