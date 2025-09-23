@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <style>
+        h1 {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+
+    <head>
+        <title>HTML Guide</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <div class="Inner">
+        <body style="background-color: rgb(36, 40, 42);">
+            <div class="Heading">
+                <h1 style="text-align: center; color: black;">HTML & Css Guide</h1>
+        </div>
+
+    <div class="Intro">
+        <p>
+            Tänk på att det alltid ska vara "<>" för att det ska räknas som en "funktion" i HTML. 
+            Sedan när man stänger en linje där C# det vi gör i programmering har ; här är det samma 
+            som start blocket fast ett / innan ordet exempel visas nedanför.
+        </p>
+    </div>
+
+    <div class="Introduktion">
+        <div class="Stycke1">
+        <p>
+        Det är viktigt att det alltid finns DOCTYPE vid toppen av din html fil,
+        Det gör så att filen du skriver vet om att språket du skriver i är HTML.
+        <br>
+        <br>
+        En till viktig sak är att efter man har skrivit så ska man öppna med html.
+        Det berättar samt för programmet att all kod inom &lthtml&gt är html språket.
+        <br> <br>
+        En sak man kan lägga till i &lthtml&gt är lang="sv", det säger till webbläsaren att din hemsida är skriven
+        i det språket, sv står för svenska, en står för engelska. Det finns olika förkortningar för alla språk
+        men dessa är de viktiga.
+        </p>
+    </div>
+    <div class="kodBlock1">
+        <code>
+            &lt!DOCTYPE html&gt <br>
+            &lthtml lang="sv"&gt <br>
+            <br><br><br><br><br><br>
+            &lt/html&gt
+        </code>
+    </div>
+    </div>
+    
+    <div class="HeaderParagraph">
+        <div class="Stycke2">
+            <p>
+                Det finns 4 olika "text" typer, det finns H1, H2, H3, p, H1-H3 är Headers som storleken på texten kan INTE ändras på.
+                Medans p står för Paragraph eller på svenska Stycke, som är om du ska skriva ett stycke, exempel är denna rutan jag skriver
+                just nu. Skillnaden på H1-H3 är hur stor Headern är, Header kan också kallas som rubrik, underrubik.
+            </p>
+        <h1>H1</h1><br>
+        <h2>H2</h2><br>
+        <H3>H3</H3><br>
+        <p>P</p>
+        <br><br>
+        </div>
+    <div class="kodBlock2">
+        <code>
+&lt!DOCTYPE hmtl&gt<br>
+&lthtml&gt<br>
+&lth1&gt Hej &lt/h1&gt <br>
+&lth2&gt Hej &lt/h2&gt <br>
+&lth3&gt Hej &lt/h3&gt <br>
+&ltp&gt Hej &lt/p&gt <br>
+&lt/html&gt
+        </code>
+        </div>
+    </div>
+        
+    <div class="BodyHeadParagraph">
+        <div class="Stycke3">
+            <p>
+                Det finns 3 typer av saker som ska komma efter &lthtml&gt, Body, Head, Style,
+                Skillnaden mellan dessa är att body är det som syns, Head är det som händer i bakgrunden,
+                fortfarande viktigt men syns inte på samma sätt som body, exempel på en sak det kan göra är
+                &lttitle&gt som skriver titeln på fliken när du har hemsidan uppe. Style är en version av 
+                CSS som jag kommer berätta om senare. Body är där du lägger alla Headers, Paragraphs, 
+                och allt annat som du kanske vill ha på hemsidan som syns.
+            </p>
+        <br><br>
+        </div>
+    <div class="kodBlock3">
+        <code>
+&lt!DOCTYPE hmtl&gt<br>
+&lthtml&gt<br>
+&lthead&gt <br>
+&lttitle&gt<br> flik titel <br> &lt/title&gt <br>
+&lt/head&gt <br>
+&ltbody&gt <br>
+&lth1&gt <br>
+Hej <br>
+&lt/h1&gt <br>
+&lt/body&gt <br>
+&lt/html&gt
+        </code>
+        </div>
+    </div>
+
+
+    <div class="CSSParagraph">
+        <div class="Stycke4">
+            <p>
+                Som jag sa innan finns det 3 typer av CSS, det finns inline,
+                internal, external, inline som det heter är I linjen, du säger
+                vad den specifika linjen ska ha för konfigurationer
+                internal är som external skillnaden är att external är
+                en extern fil som den hämtar information från, medans internal
+                öppnas med &ltstyles&gt <br> <br>
+                Exemplet bredvid säger till att header 1 ska vara färgen svart,
+                tänk på att färger måste skrivas på engelska om du vill använda de
+                som redan finns. <br> <br>
+                Det andra exemplet sätter body backgrunds färg till vit. <br> <br>
+                External är exakt som internal i hur koden fungerar fast man måste hämta information från en annan fil,
+                exempel på filnamn kan vara style.css <br>
+                exempel visar också hur man importerar data från en annan fil,
+                vid tiden jag skriver detta är det överkurs, kanske ändras i framtiden.
+            </p>
+        <br><br>
+        </div>
+    <div class="kodBlock4">
+        <code>
+&lt!DOCTYPE hmtl&gt<br>
+&lthtml&gt<br>
+&ltlink rel="stylesheet" href="style.css"&gt <br>
+&ltstyles&gt <br>
+body { <br>
+    background-color: white; <br>
+} <br>
+&lt/styles&gt <br>
+&lthead&gt <br>
+&lttitle&gt<br> flik titel <br> &lt/title&gt <br>
+&lt/head&gt <br>
+&ltbody&gt <br>
+&lth1 styles="color:black;"&gt <br>
+Hej <br>
+&lt/h1&gt <br>
+&lt/body&gt <br>
+&lt/html&gt
+        </code>
+        </div>
+    </div>
+
+    
+    <div class="ImageParagraph">
+        <div class="Stycke5">
+            <p>
+                När det kommer till att lägga in bilder så finns det bara ett simpelt sätt,
+                Det exemplet visas undertill, en viktig sak är att skapa en mapp där du kan 
+                ha dina bilder för att det ska vara organiserat, i detta exemplet kommer mappen 
+                heta "images" där vi lägger in våra bilder, tänk på att bilden ska ha ett
+                simpelt och kort namn så det blir enklare. <br> <br>
+                Man öppnar en bild med &ltImg&gt där som inline skriver man inom &lt&gt,
+                src="" Betyder vart bilden är lokaliserad, i detta fallet har vi lagt det
+                i mappen "images" och sen vad bilden heter som skapar "images/Fladdermus.png"
+                Det är viktigt att inkludera filtypen vid slutet, om det är en jpg, png, jpeg, gif, eller 
+                vad det nu kan vara. Sedan är alt="" en text som byter ut bilden om bilden inte finns,
+                eller laddas eller någon där bilden inte vill ladda och en text behöver byta ut
+                bilden.
+            </p>
+        <br><br>
+        </div>
+    <div class="kodBlock5">
+        <code>
+&lt!DOCTYPE hmtl&gt<br>
+&lthtml&gt<br>
+&ltbody&gt <br>
+&ltimg src="images/Fladdermus.png" alt="Fladdermus"&gt <br>
+&lt/body&gt <br>
+&lt/html&gt
+        </code>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
