@@ -67,7 +67,6 @@ body {
     margin-top: 20px;
     display: flex;
     border: 5px solid rgb(61, 61, 61);
-    color:#00f5ff;
 }
 .Introduktion {
     display: flex;
@@ -99,7 +98,6 @@ body {
     display: flex;
     border: 5px solid rgb(61, 61, 61);
     padding-right:15px;
-    color:#00f5ff;
 }
 .BodyHeadParagraph {
     display: flex;
@@ -132,7 +130,6 @@ body {
     overflow-x: auto;
     overflow-y: auto;
     padding-right:40px;
-    color:#00f5ff;
 }
 .CSSParagraph {
     display: flex;
@@ -165,7 +162,6 @@ body {
     overflow-x: auto;
     overflow-y: auto;
     padding-right:1px;
-    color:#00f5ff;
 }
 .ImageParagraph {
     display: flex;
@@ -195,8 +191,30 @@ body {
     margin-top: 20px;
     display: flex;
     border: 5px solid rgb(61, 61, 61);
-    overflow-x: auto;
-    overflow-y: auto;
     padding-right:1px;
-    color:#00f5ff;
+}
+.lang-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4f772d;
+    color: #f5f5f5;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: 0.2s;
+}
+.lang-button:hover {
+    background-color: #90a955;
+}
+code {
+    display: block;
+    background-color: #1e1e1e;
+    color: #00f5ff;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: "Courier New", monospace;
 }
