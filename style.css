@@ -49,7 +49,7 @@ body {
     margin-right: 1;
     padding: 15px;
     margin-top: 20px;
-    display: block;
+    display: flex;
     margin-right: 20px;
     border: 5px solid rgb(61, 61, 61);
     color: #ecf39e;
@@ -65,7 +65,7 @@ body {
     padding: 1px;
     padding-right:15px;
     margin-top: 20px;
-    display: block;
+    display: flex;
     border: 5px solid rgb(61, 61, 61);
 }
 .Introduktion {
@@ -95,7 +95,7 @@ body {
     margin-right: auto;
     padding: 1px;
     margin-top: 20px;
-    display: block;
+    display: flex;
     border: 5px solid rgb(61, 61, 61);
     padding-right:15px;
 }
@@ -111,7 +111,7 @@ body {
     margin-right: 1;
     padding: 15px;
     margin-top: 20px;
-    display: block;
+    display: flex;
     margin-right: 20px;
     border: 5px solid rgb(61, 61, 61);
     color:#ecf39e;
@@ -125,7 +125,7 @@ body {
     margin-left: auto;
     padding: 1px;
     margin-top: 20px;
-    display: block;
+    display: flex;
     border: 5px solid rgb(61, 61, 61);
     overflow-x: auto;
     overflow-y: auto;
@@ -143,7 +143,7 @@ body {
     margin-right: 1;
     padding: 15px;
     margin-top: 20px;
-    display: block;
+    display: flex;
     margin-right: 20px;
     border: 5px solid rgb(61, 61, 61);
     color:#ecf39e;
@@ -157,7 +157,7 @@ body {
     margin-left: auto;
     padding: 1px;
     margin-top: 20px;
-    display: block;
+    display: flex;
     border: 5px solid rgb(61, 61, 61);
     overflow-x: auto;
     overflow-y: auto;
@@ -175,7 +175,7 @@ body {
     margin-right: 1;
     padding: 15px;
     margin-top: 20px;
-    display: block;
+    display: flex;
     margin-right: 20px;
     border: 5px solid rgb(61, 61, 61);
     color:#ecf39e;
@@ -189,7 +189,7 @@ body {
     margin-left: auto;
     padding: 1px;
     margin-top: 20px;
-    display: block;
+    display: flex;
     border: 5px solid rgb(61, 61, 61);
     padding-right:1px;
 }
