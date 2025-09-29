@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        h1 {
-            font-family: Arial, sans-serif;
-        }
-    </style>
-
     <head>
         <title>HTML & CSS Guide</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
+        <style>
+            h1 {
+                font-family: Arial, sans-serif;
+            }
+        </style>
     </head>
     <div class="Inner">
         <body style="background-color: rgb(36, 40, 42);">
-            <a href="index.html" class="lang-button">Svenska</a>
+            <a href="../index.html" class="lang-button">Svenska</a>
             <div class="Heading">
                 <h1 style="text-align: center; color: #f5f5f5;">HTML & CSS Guide</h1>
             </div>
 
             <div class="Intro">
                 <p>
-                    Keep in mind that it always has to be "&lt&gt" for it to count as a "tag" in HTML. <br><br>
+                    Keep in mind that it always has to be "&lt;&gt;" for it to count as a "tag" in HTML. <br><br>
                     When closing a line, like in C# where we use ";" in programming, it's similar to the opening block but with a "/" before the word. An example is shown below.<br><br>
                     A tag is a function. Just like in C# you have int, double, string, etc., in HTML you have tags like p, h1, h2, h3, img, and more.
                 </p>
@@ -30,21 +29,28 @@
                     <p>
                         It is important to always include DOCTYPE at the top of your HTML file. 
                         This tells the file that the language being used is HTML.
-                        <br><br>
+                    </p>
+                    <p>
                         Another important thing is that after writing DOCTYPE, you open with &lt;html&gt;. 
                         This tells the program that all code inside &lt;html&gt; is written in HTML.
-                        <br><br>
+                    </p>
+                    <p>
                         You can also add lang="sv" or lang="en" inside &lt;html&gt;, which tells the browser what language the website is in. 
                         "sv" stands for Swedish, "en" stands for English. There are abbreviations for all languages, but these are the most important.
                     </p>
                 </div>
                 <div class="kodBlock1">
                     <code>
-                        &lt!DOCTYPE html&gt <br>
-                        &lthtml lang="sv"&gt <br>
-                        Input Code:
-                        <br><br><br><br><br><br>
-                        &lt/html&gt
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html lang="sv"&gt;
+Input Code:
+
+
+
+
+
+
+&lt;/html&gt;</pre>
                     </code>
                 </div>
             </div>
@@ -52,25 +58,26 @@
             <div class="HeaderParagraph">
                 <div class="Stycke2">
                     <p>
-                        There are 4 different "text" types: H1, H2, H3, and p. H1-H3 are headers whose sizes cannot be changed.
+                        There are many different "text" types, and among these are: H1, H2, H3, and p. H1-H3 are headers of diffrent sizes.
                         The "p" tag stands for Paragraph, used to write blocks of text, like this box you are reading now. 
                         The difference between H1-H3 is the size of the header. A header can also be called a title or subheading.
                     </p>
-                    <h1>H1</h1><br>
-                    <h2>H2</h2><br>
-                    <h3>H3</h3><br>
-                    <p>P</p>
-                    <br><br>
+                    <div class="HeaderExamples">
+                        <h1>H1</h1>
+                        <h2>H2</h2>
+                        <H3>H3</H3>
+                        <p>P</p>
+                    </div>
                 </div>
                 <div class="kodBlock2">
                     <code>
-&lt!DOCTYPE html&gt<br>
-&lthtml&gt<br>
-&lth1&gt Hello &lt/h1&gt <br>
-&lth2&gt Hello &lt/h2&gt <br>
-&lth3&gt Hello &lt/h3&gt <br>
-&ltp&gt Hello &lt/p&gt <br>
-&lt/html&gt
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;h1&gt; Hi &lt;/h1&gt;
+    &lt;h2&gt; Hi &lt;/h2&gt;
+    &lt;h3&gt; Hi &lt;/h3&gt;
+    &lt;p&gt; Hi &lt;/p&gt;
+&lt;/html&gt;</pre>
                     </code>
                 </div>
             </div>
@@ -78,27 +85,23 @@
             <div class="BodyHeadParagraph">
                 <div class="Stycke3">
                     <p>
-                        There are 3 types of elements that come after &lt;html&gt;: Body, Head, and Style. 
-                        The difference is that Body is what is visible, Head is what happens in the background, 
+                        There are 2 types of elements go inside &lt;html&gt;: Body and Head. 
+                        The difference is that while Body is what is visible on the main page, Head is what happens in the background, 
                         still important but not seen the same way as Body. For example, &lt;title&gt; sets the tab title when the website is open. 
-                        Style is a version of CSS which I will explain later. 
                         The Body contains all headers, paragraphs, and anything else you want visible on the page.
                     </p>
-                    <br><br>
                 </div>
                 <div class="kodBlock3">
                     <code>
-&lt!DOCTYPE html&gt<br>
-&lthtml&gt<br>
-&lthead&gt <br>
-&lttitle&gt<br> tab title <br> &lt/title&gt <br>
-&lt/head&gt <br>
-&ltbody&gt <br>
-&lth1&gt <br>
-Hello <br>
-&lt/h1&gt <br>
-&lt/body&gt <br>
-&lt/html&gt
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Tab Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hi&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
                     </code>
                 </div>
             </div>
@@ -107,13 +110,16 @@ Hello <br>
                 <div class="Stycke4">
                     <p>
                         As mentioned before, there are 3 types of CSS: inline, internal, and external. 
-                        Inline is applied directly in the element, internal is written inside &lt;style&gt; tags, 
+                        Inline is applied directly in the element, internal is written inside &lt;style&gt; tags within the head, 
                         and external comes from a separate file, like style.css.
-                        <br><br>
+                    </p>
+                    <p>
                         The example next to this shows how to make H1 text black. Remember, colors must be written in English if you want to use the built-in names.
-                        <br><br>
+                    </p>
+                    <p>
                         Another example sets the body background color to white.
-                        <br><br>
+                    </p>
+                    <p>
                         External CSS works like internal CSS, but you have to load it from a separate file, for example style.css.
                         The example also shows how to import CSS from another file. This may be considered advanced at the time of writing.
                     </p>
@@ -121,23 +127,21 @@ Hello <br>
                 </div>
                 <div class="kodBlock4">
                     <code>
-&lt!DOCTYPE html&gt<br>
-&lthtml&gt<br>
-&ltlink rel="stylesheet" href="style.css"&gt <br>
-&ltstyle&gt <br>
-body { <br>
-    background-color: white; <br>
-} <br>
-&lt/style&gt <br>
-&lthead&gt <br>
-&lttitle&gt<br> tab title <br> &lt/title&gt <br>
-&lt/head&gt <br>
-&ltbody&gt <br>
-&lth1 style="color:black;"&gt <br>
-Hello <br>
-&lt/h1&gt <br>
-&lt/body&gt <br>
-&lt/html&gt
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Tab Title&lt;/title&gt;
+        &lt;link rel="stylesheet" href="style.css"&gt;
+        &lt;style&gt;
+            body {
+                background-color: white;
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1 style="color:black;"Hi&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
                     </code>
                 </div>
             </div>
@@ -148,31 +152,31 @@ Hello <br>
                         Adding images is simple. It's important to create a folder to keep them organized. 
                         In this example, the folder is called "images" and contains our images. 
                         Give each image a short and simple name to make it easier.
-                        <br><br>
-                        Open an image with &lt;img&gt; and set the src attribute to the file path, e.g. "images/Bat.png". 
+                    </p>
+                    <p>
+                        Open an image with &lt;img&gt; and set the src attribute to the file path, e.g. "images/bat.png". 
                         Include the file extension (jpg, png, etc.). 
                         The alt attribute provides text if the image cannot load.
                     </p>
-                    <br><br>
                 </div>
                 <div class="kodBlock5">
                     <code>
-&lt!DOCTYPE html&gt<br>
-&lthtml&gt<br>
-&ltbody&gt <br>
-&ltimg src="images/Bat.png" alt="Bat"&gt <br>
-&lt/body&gt <br>
-&lt/html&gt
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;body&gt;
+        &lt;img src="images/bat.png" alt="bat"&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
                     </code>
                 </div>
             </div>
-                <footer>
-                    <p>
-                    Note: I actively update swedish version, English is translated by ai <br>
-                    may be some wrong translation as well as I dont actively translate <br>on every commit
-                    can take some time before there is a english equivalent of the swedish site.
-                    </p>
-                </footer>
+            <footer>
+                <p>
+                    Note: I actively update swedish version, English is translated by AI <br>
+                    may be some wrong translation as well as I dont actively translate <br>
+                    on every commit can take some time before there is a english equivalent of the swedish site.
+                </p>
+            </footer>
         </body>
     </div>
 </html>

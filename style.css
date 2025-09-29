@@ -118,6 +118,9 @@ h1 {
     font-weight: bold;
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
+.lang-button:hover, .Github:hover {
+    background-color: #426126;
+}
 code {
     color: #00f5ff;
     padding: 10px;
